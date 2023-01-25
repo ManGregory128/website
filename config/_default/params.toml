@@ -67,7 +67,7 @@ bioImageUrl = "/images/aal_grad.png"
 useGravatar = false
 location = "Dublin, IE"
 organization = "TCD"
-link = "http://www.mangregory.me"
+link = "https://www.mangregory.me"
 
 # sidebar
 enableBio = true
