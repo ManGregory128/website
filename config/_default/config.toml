@@ -1,53 +1,69 @@
-baseURL = "https://www.mangregory.me"
-title = "Gregory Manitaras"
-theme = "zzo"
+baseurl = "https://www.mangregory.me"
+title = "mangregory"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-hasCJKLanguage = true
+paginate = 20
 
-summaryLength = 70
-buildFuture = true
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-copyright = "&copy;{year}, All Rights Reserved"
-timeout = 10000
-enableEmoji = true
-paginate = 13
-rssLimit = 100
+[params]
+  author = "Gregory Manitaras"
+  info = "(Integrated) Computer Science Junior Fresher"
+  description = "Gregory Manitaras's personal website"
+  keywords = "developer,personal"
+  avatarurl = "images/aal_grad.png"
+  #gravatar = "john.doe@example.com"
 
-enableGitInfo = false
-googleAnalytics = ""
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = true
-      unsafe = true
-      xHTML = true
-  [markup.highlight]
-    codeFences = true
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+  since = 2022
 
-[outputs]
-  home = ["HTML", "SearchIndex"]
-  section = ["HTML", "SearchIndex"]
-  taxonomyTerm = ["HTML", "SearchIndex"]
-  taxonomy = ["HTML", "SearchIndex"]
+  enableTwemoji = true
 
-[outputFormats]
-  [outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
-  tag = "tags"
   series = "series"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/mangregory128/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/grigoris-manitaras-48491723a/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/manitarasg/"
+[[params.social]]
+  name = "YouTube"
+  icon = "fa fa-youtube fa-2x"
+  weight = 4
+  url = "https://youtube.com/@mangregory/"
+
+# Menu links
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url  = "projects/"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
