@@ -27,7 +27,7 @@ header:
     title:
       - Gregory Manitaras
     subtitle:
-      - First Year Undergraduate Computer Science Student
+      - Second Year Undergraduate Computer Science Student
     titleColor: 
     titleShadow: true
     titleFontSize: 44

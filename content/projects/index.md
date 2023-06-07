@@ -2,7 +2,7 @@
 title = "Projects"
 description = "All projects I have undertaken so far."
 type = "projects"
-date = "2023-01-16"
+date = "2023-06-07"
 +++
 
 Projects I have worked on include:
