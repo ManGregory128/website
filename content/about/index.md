@@ -4,10 +4,44 @@ description = "Gregory Manitaras: Second Year Computer Science Student"
 type = "about"
 date = "2023-01-16"
 +++
-## Grigoris (Gregory) Manitaras
+# Grigoris (Gregory) Manitaras
 
-Dedicated, enthusiastic and curious future Computer Scientist aiming to be able to write code that will benefit our species.
-
+A future Computer Scientist from Cyprus, aiming to be able to write code that will benefit our species.
+## Skills:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ManGregory128&layout=compact)](https://github.com/ManGregory128)
 
- Currently studying at Trinity College Dublin, a holder of 4 A-Level (three of which at A*), 1 AS and 11 GCSE qualifications. Constantly learning about new topics in technology with two years of high-school C# experience demonstrated by my first project: an Attendance System for a school client complete with an SQL server backbone, desktop and mobile applications (more on my GitHub profile). Moreover, the developer of "Asgard Shield: Reloaded", a videogame modification with over 43,000 downloads - created after teaching myself Java. Able to work under pressure due to completing additional, demanding military training alongside my required year of service in the Cyprus National Guard, resulting to being awarded the rank of Cadet Second Lieutenant. Currently enhancing my knowledge in Java as well as learning Assembly language as an Undergraduate Student at [Trinity College Dublin](https://tcd.ie), Markdown on my own time while successfully deploying self-hosted services due to teaching myself containerisation.
+### Additionally:
+* Git and Github
+* Developing and working in Teams
+* Adapting and using already-written Codebases
+* Microsoft Office ([ict Europe](http://www.icteurope.gr/index.php?lng=cy) Qualifications)
+* Critical Thinking
+* Fluent in both English and Greek
+
+## Timeline:
+![timeline](/images/timeline-transparent-optimized.gif)
+
+After graduating from my high school, the [American Academy Larnaca](https://academy.ac.cy) I had achieved:
+### A-Level Grades:
+* Computer Science (AQA): A*
+* Mathematics (Pearson): A
+* Media Studies (AQA): A*
+* Psychology (Pearson): A*
+### An overall Cyprus Apolytirion Score of 19.83/20
+### An additional AS and 11 GCSE Qualifications
+
+## Projects:
+By this point I had developed two projects, which I am now enhancing as my knowledge expands:
+* **Computer Science A-Level Project**: an Attendance System for a school client complete with an SQL server backbone, desktop and mobile applications.
+* **Asgard Shield: Reloaded**: a Minecraft mod with over 54,000 downloads.
+
+More information on my projects can be found on the [Projects](https://mangregory.me/projects) page.
+
+I am currently studying (Integrated) Computer Science at [Trinity College Dublin](https://www.tcd.ie/courses/undergraduate/courses/computer-science/), with a first year score of 84%.
+
+## Extracurriculars & Awards:
+ 
+ * Awarded the [IKYK](http://www.cyscholarships.gov.cy) government-issued scholarship towards university students in the Excelence class.
+ * Awarded an [Entrance Exhibition](https://www.tcd.ie/study/undergraduate/entrance-exhibition/) by Trinity College Dublin.
+ * During my mandatory year of military service at the [Cyprus National Guard](http://army.gov.cy) I completed additional, demanding training awarding me the rank of Cadet Second Lieutenant in the field of Engineering. During my service I also provided IT support, modelling and deploying client and server software.
+ * Currently maintaining a Homelab wih self-hosted services.
