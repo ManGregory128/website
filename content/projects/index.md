@@ -60,7 +60,7 @@ Libraries:
 * The project is documented on [csnea-docs.mangregory.me](https://csnea-docs.mangregory.me/), using [GitBook](https://www.gitbook.com/) and can also be found on [this repo](https://github.com/ManGregory128/csNEA-docs).
   
 ## Asgard Shield Reloaded
-[![](http://cf.way2muchnoise.eu/full_asgard-shield-reloaded_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/asgard-shield-reloaded) [![](http://cf.way2muchnoise.eu/versions/asgard-shield-reloaded.svg)](https://www.curseforge.com/minecraft/mc-mods/asgard-shield-reloaded/files) ![GitHub top language](https://img.shields.io/github/languages/top/ManGregory128/asgardshieldreloaded?color=b07219) [![GitHub](https://img.shields.io/github/license/ManGregory128/asgardshieldreloaded)](https://github.com/ManGregory128/asgardshieldreloaded/blob/1.19.2/LICENSE)
+[![](http://cf.way2muchnoise.eu/full_asgard-shield-reloaded_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/asgard-shield-reloaded) [![](http://cf.way2muchnoise.eu/versions/asgard-shield-reloaded.svg)](https://www.curseforge.com/minecraft/mc-mods/asgard-shield-reloaded/files) ![GitHub contributors](https://img.shields.io/github/contributors/mangregory128/asgardshieldreloaded) ![GitHub top language](https://img.shields.io/github/languages/top/ManGregory128/asgardshieldreloaded?color=b07219) [![GitHub](https://img.shields.io/github/license/ManGregory128/asgardshieldreloaded)](https://github.com/ManGregory128/asgardshieldreloaded/blob/1.20/LICENSE)
 
 A Minecraft mod that adds giant swords and shields to the game. Made in collaboration with [ACGaming](https://github.com/ACGaming).
 
