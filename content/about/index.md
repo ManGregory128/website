@@ -10,6 +10,8 @@ A future Computer Scientist from Cyprus, aiming to be able to write code that wi
 ## Skills:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ManGregory128&layout=compact)](https://github.com/ManGregory128)
 
+### Leetcode Stats:
+[![Leet Code](https://badges.peiyuan.ch/leetcode/mangregory/submission?accepted=true&difficulty=easy)](https://leetcode.com/mangregory/) [![Leet Code](https://badges.peiyuan.ch/leetcode/mangregory/submission?accepted=true&difficulty=medium)](https://leetcode.com/mangregory/)
 ### Additionally:
 * Git and Github
 * Developing and working in Teams
