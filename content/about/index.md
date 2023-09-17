@@ -4,7 +4,7 @@ description = "Gregory Manitaras: Second Year Computer Science Student"
 type = "about"
 date = "2023-01-16"
 +++
-# Grigoris (Gregory) Manitaras
+# Grigoris (Gregory) Ioannis Manitaras
 
 A future Computer Scientist from Cyprus, aiming to be able to write code that will benefit our species.
 ## Skills:
@@ -15,7 +15,7 @@ A future Computer Scientist from Cyprus, aiming to be able to write code that wi
 ### Additionally:
 * Git and Github
 * Developing and working in Teams
-* Adapting and using already-written Codebases
+* Adapting from and using large Codebases
 * Microsoft Office ([ict Europe](http://www.icteurope.gr/index.php?lng=cy) Qualifications)
 * Critical Thinking
 * Fluent in both English and Greek
@@ -32,10 +32,10 @@ After graduating from my high school, the [American Academy Larnaca](https://aca
 ### An overall Cyprus Apolytirion Score of 19.83/20
 ### An additional AS and 11 GCSE Qualifications
 
-## Projects:
+## [Projects](https://mangregory.me/projects):
 By this point I had developed two projects, which I am now enhancing as my knowledge expands:
-* **Computer Science A-Level Project**: an Attendance System for a school client complete with an SQL server backbone, desktop and mobile applications.
-* **Asgard Shield: Reloaded**: a Minecraft mod with over 54,000 downloads.
+* **Paron (Computer Science A-Level Project)**: an Attendance System for a primary school client complete with an SQL server and API backbone, desktop and mobile applications with different uses depending on user roles.
+* **Asgard Shield: Reloaded**: a Minecraft mod with over 60,000 downloads (as of September 2023).
 
 More information on my projects can be found on the [Projects](https://mangregory.me/projects) page.
 
