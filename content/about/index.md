@@ -4,7 +4,7 @@ description = "Gregory Manitaras: Second Year Computer Science Student"
 type = "about"
 date = "2024-05-06"
 +++
-# Grigoris (Gregory) Manitaras
+# Grigoris (Gregory) Ioannis Manitaras
 
 A Trinity College Dublin Computer Science (BA) student from Cyprus. Substantially high academic achievement, backed by 
 awards from both University and High School. Eager to contribute to exemplary software through experience on various 

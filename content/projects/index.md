@@ -61,7 +61,7 @@ Libraries:
 * [UiBooster](https://milchreis.github.io/uibooster-for-processing/) by Nick 'Milchreis' Müller – UI Elements
 
 
-## CS A-Level Non-Examined Assessment
+## Paron (CS A-Level Non-Examined Assessment)
 
 * An attendance system with a SQL Server backbone and both desktop and mobile applications, designed for a primary school client.
 * The desktop application can be used to setup users, students, schedules whereas the mobile app is used by the teaching staff of the school to take attendances.
