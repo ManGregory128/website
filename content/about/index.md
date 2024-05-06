@@ -2,23 +2,36 @@
 title = "About"
 description = "Gregory Manitaras: Second Year Computer Science Student"
 type = "about"
-date = "2023-01-16"
+date = "2024-05-06"
 +++
 # Grigoris (Gregory) Manitaras
 
-A future Computer Scientist from Cyprus, aiming to be able to write code that will benefit our species.
+A Trinity College Dublin Computer Science (BA) student from Cyprus. Substantially high academic achievement, backed by 
+awards from both University and High School. Eager to contribute to exemplary software through experience on various 
+personal and group projects, one of which achieving over 75,000 downloads.
 ## Skills:
+### Main Programming Languages:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ManGregory128&layout=compact)](https://github.com/ManGregory128)
+
+### Tech Skills & Additional Languages:
+* C
+* VHDL
+* ARM Assembly
+* Git and Github
+* Docker
+* SQL
+* XML
+* UML
+* Microsoft Office ([ict Europe](http://www.icteurope.gr/index.php?lng=cy) Qualifications)
+### Additionally:
+* Developing and working in teams
+* Adapting and using already-written codebases
+* Critical Thinking
+* Leadership Skills gained through military service (details in extracurricular section below)
+* Fluent in English and Greek
 
 ### Leetcode Stats:
 [![Leet Code](https://badges.peiyuan.ch/leetcode/mangregory/submission?accepted=true&difficulty=easy)](https://leetcode.com/mangregory/) [![Leet Code](https://badges.peiyuan.ch/leetcode/mangregory/submission?accepted=true&difficulty=medium)](https://leetcode.com/mangregory/)
-### Additionally:
-* Git and Github
-* Developing and working in Teams
-* Adapting and using already-written Codebases
-* Microsoft Office ([ict Europe](http://www.icteurope.gr/index.php?lng=cy) Qualifications)
-* Critical Thinking
-* Fluent in both English and Greek
 
 ## Timeline:
 ![timeline](/images/timeline-transparent-optimized.gif)
@@ -31,17 +44,13 @@ After graduating from my high school, the [American Academy Larnaca](https://aca
 * Psychology (Pearson): A*
 ### An overall Cyprus Apolytirion Score of 19.83/20
 ### An additional AS and 11 GCSE Qualifications
-
-## Projects:
-By this point I had developed two projects, which I am now enhancing as my knowledge expands:
-* **Computer Science A-Level Project**: an Attendance System for a school client complete with an SQL server backbone, desktop and mobile applications.
-* **Asgard Shield: Reloaded**: a Minecraft mod with over 54,000 downloads.
-
-More information on my projects can be found on the [Projects](https://mangregory.me/projects) page.
-
 I am currently studying (Integrated) Computer Science at [Trinity College Dublin](https://www.tcd.ie/courses/undergraduate/courses/computer-science/), with a first year score of 84%.
+### Multiple Personal Projects:
+By this point I had developed two personal projects, which I am now enhancing as my knowledge expands. More information on my projects can be found on the [Projects](https://mangregory.me/projects) page.
 
-## Extracurriculars & Awards:
+
+
+## Extracurriculars, Awards & Military Service:
  
  * Awarded the [IKYK](http://www.cyscholarships.gov.cy) government-issued scholarship towards university students in the Excelence class.
  * Awarded an [Entrance Exhibition](https://www.tcd.ie/study/undergraduate/entrance-exhibition/) by Trinity College Dublin.
