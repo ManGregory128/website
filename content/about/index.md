@@ -8,7 +8,7 @@ date = "2024-05-06"
 
 A Trinity College Dublin Computer Science (BA) student from Cyprus. Substantially high academic achievement, backed by 
 awards from both University and High School. Eager to contribute to exemplary software through experience on various 
-personal and group projects, one of which achieving over 75,000 downloads.
+personal and group projects, one of which achieving over 78,000 downloads.
 ## Skills:
 ### Main Programming Languages:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ManGregory128&layout=compact)](https://github.com/ManGregory128)
@@ -34,7 +34,7 @@ personal and group projects, one of which achieving over 75,000 downloads.
 [![Leet Code](https://badges.peiyuan.ch/leetcode/mangregory/submission?accepted=true&difficulty=easy)](https://leetcode.com/mangregory/) [![Leet Code](https://badges.peiyuan.ch/leetcode/mangregory/submission?accepted=true&difficulty=medium)](https://leetcode.com/mangregory/)
 
 ## Timeline:
-![timeline](/images/timeline-transparent-optimized.gif)
+![timeline](/images/timeline.gif)
 
 After graduating from my high school, the [American Academy Larnaca](https://academy.ac.cy) I had achieved:
 ### A-Level Grades:
