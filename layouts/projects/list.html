@@ -1,0 +1,30 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ title (i18n (lower .Title)) | default .Title }}
+        </a>
+      </h1>
+    </header>
+    {{ .Content }}
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <div class="project-grid">
+      {{- range .Paginator.Pages -}}
+        <div class="project-box">
+          <h2 class="project-title">
+            <a href="{{ .Permalink | safeURL }}">{{ .Title }}</a>
+          </h2>
+          {{ with .Params.image }}
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="project-image">
+          {{ end }}
+        </div>
+      {{- end -}}
+    </div>
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}

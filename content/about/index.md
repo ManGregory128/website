@@ -56,3 +56,9 @@ By this point I had developed two personal projects, which I am now enhancing as
  * Awarded an [Entrance Exhibition](https://www.tcd.ie/study/undergraduate/entrance-exhibition/) by Trinity College Dublin.
  * During my mandatory year of military service at the [Cyprus National Guard](http://army.gov.cy) I completed additional, demanding training awarding me the rank of Cadet Second Lieutenant in the field of Engineering. During my service I also provided IT support, modelling and deploying client and server software.
  * Currently maintaining a Homelab wih self-hosted services.
+
+## About this Website:
+
+* Generated using [Hugo](https://gohugo.io/).
+* Hosted on [Netlify](https://netlify.com/).
+* Running from [this repository](https://github.com/ManGregory128/website).
