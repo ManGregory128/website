@@ -1,7 +1,7 @@
 ---
 title: "Research Intern at KIOS CoE"
 date: 2024-08-01
-description: "My first internship and inaugural research project"
+description: "First Internship and Inaugural Research Project"
 image: "images/kiosPresentation.jpg"
 ---
 ## In a nutshell:

@@ -1,7 +1,7 @@
 ---
 title: "Paper Planes"
 date: 2023-05-01
-description: "My first internship and inaugural research project"
+description: "CSU11013 Contribution"
 image: "images/paperPlanes.png"
 ---
 

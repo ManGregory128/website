@@ -14,17 +14,21 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <div class="project-grid">
       {{- range .Paginator.Pages -}}
-        <div class="project-box">
-          <h2 class="project-title">
-            <a href="{{ .Permalink | safeURL }}">{{ .Title }}</a>
-          </h2>
-          {{ with .Params.image }}
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="project-image">
-          {{ end }}
-        </div>
+        <a href="{{ .Permalink | safeURL }}" class="project-box-link">
+          <div class="project-box">
+            <h2 class="project-title">{{ .Title }}</h2>
+            {{ with .Params.image }}
+              <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="project-image">
+            {{ end }}
+            {{ with .Params.description }}
+              <p class="project-description">{{ . }}</p>
+            {{ end }}
+          </div>
+        </a>
       {{- end -}}
     </div>
 
     {{ partial "pagination.html" . }}
   </section>
+  
 {{ end }}
