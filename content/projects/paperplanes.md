@@ -2,14 +2,14 @@
 title: "Paper Planes"
 date: 2023-05-01
 description: "My first internship and inaugural research project"
-image: "https://github.com/ManGregory128/Group27Project/assets/52697798/3df8c2c4-201b-4578-bb57-69aa84512b82"
+image: "images/paperPlanes.png"
 ---
 
 ![GitHub contributors](https://img.shields.io/github/contributors/ManGregory128/Group27Project) ![GitHub top language](https://img.shields.io/github/languages/top/ManGregory128/Group27Project?color=82afff) ![GitHub repo size](https://img.shields.io/github/repo-size/ManGregory128/Group27Project)
 
 A fork of the project me and my team implemented for Trinity College Dublin's [CSU11013](https://teaching.scss.tcd.ie/module/csu11013-programming-project/) Group Project.
 
-![image](https://github.com/ManGregory128/Group27Project/assets/52697798/3df8c2c4-201b-4578-bb57-69aa84512b82)
+![Paper Planes](/images/paperPlanes.png 'Paper Planes')
 
 Developed in Processing (Java), it is meant to visualise over 500k flights in the USA in terms of:
 * Total and total diverted/cancelled/late/on-time flights, per user-selected airports as charts
