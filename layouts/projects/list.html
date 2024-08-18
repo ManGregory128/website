@@ -12,16 +12,16 @@
     </header>
     {{ .Content }}
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-    <div class="project-grid">
+    <div id="cards">
       {{- range .Paginator.Pages -}}
-        <a href="{{ .Permalink | safeURL }}" class="project-box-link">
-          <div class="project-box">
-            <h2 class="project-title">{{ .Title }}</h2>
+        <a href="{{ .Permalink | safeURL }}" class="card">
+          <div class="card-content">
+            <h3 class="project-title">{{ .Title }}</h3>
             {{ with .Params.image }}
               <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="project-image">
             {{ end }}
             {{ with .Params.description }}
-              <p class="project-description">{{ . }}</p>
+              <h4 class="project-description">{{ . }}</h4>
             {{ end }}
           </div>
         </a>

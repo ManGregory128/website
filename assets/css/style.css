@@ -1,57 +1,130 @@
 /* Default (Light) Mode */
 body.colorscheme-light {
   --description-color: #242424;
-  --hover-shadow: rgba(0, 0, 0, 0.1);
   --border-color: #242424;
+  --card-bg: rgba(33, 33, 33, 0.15);
+  --card-content-bg: #fafafa;
+  --hover-color: rgba(35, 35, 35, 0.06);
+  --hover-color-light: rgba(35, 35, 35, 0.4);
 }
 
 /* Dark Mode */
 body.colorscheme-dark {
   --description-color: #bfbfbf;
-  --hover-shadow: rgba(255, 255, 255, 0.1);
   --border-color: #ddd;
+  --card-bg: rgba(250, 250, 250, 0.15);
+  --card-content-bg: #212121;
+  --hover-color: rgba(255, 255, 255, 0.06);
+  --hover-color-light: rgba(255, 255, 255, 0.4);
 }
 
 /* Project Box Styles */
-.project-grid {
+#cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.project-box-link {
-  color: inherit;
-  width: calc(50% - 20px);
-  box-sizing: border-box;
+#cards:hover > .card::after {
+  opacity: 1;
 }
 
-.project-box-link:hover {
+.card {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  position: relative;
+  padding: 1px;
+}
+
+.card::before,
+.card::after {
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.card::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y), 
+    var(--hover-color),
+    transparent 40%
+  );
+  z-index: 3;
+}
+
+.card::after {  
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y), 
+    var(--hover-color-light),
+    transparent 40%
+  );
+  z-index: 1;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card > .card-content {
+  background-color: var(--card-content-bg);
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 1px;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+  width: calc(100% - 2px);
+}
+
+/* Remove text decoration from the entire card on hover */
+.card:hover {
   text-decoration: none;
 }
 
-.project-box-link:hover .project-title {
-  text-decoration: underline; /* Add underline back to the title when hovering */
+/* Add underline and change color of the title on hover */
+.card:hover .project-title {
+  text-decoration: underline;
   color: #5da1ec;
 }
 
-.project-box {
-  border: 1px solid var(--border-color);
+/* Ensure no text decoration on the description */
+.card .project-description,
+.card:hover .project-description {
+  text-decoration: none !important;
+}
+
+/* Additional rule to override any conflicting styles */
+.card a,
+.card a:hover,
+.card a:focus,
+.card a:active {
+  text-decoration: inherit;
+}
+
+.card-content {
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  border-radius: 8px;
-  transition: box-shadow 0.3s ease;
-  
-}
-
-.project-box:hover {
-  box-shadow: 0 8px 16px var(--hover-shadow);
 }
 
 .project-title {
   font-size: 1.4em;
   margin: 0 0 10px 0;
+  transition: color 0.4s ease;
 }
 
 .project-image {
@@ -66,20 +139,9 @@ body.colorscheme-dark {
   margin-bottom: auto;
 }
 
-.project-description:hover {
-  text-decoration: none;
-}
-
-/* Dark Mode Styles */
-.dark {
-  --description-color: #bfbfbf;
-  --hover-shadow: rgba(255, 255, 255, 0.1);
-  --border-color: #ddd;
-}
-
 /* Media query for narrow screens */
 @media (max-width: 600px) {
-  .project-box-link {
+  .card {
     width: 100%;
   }
 }

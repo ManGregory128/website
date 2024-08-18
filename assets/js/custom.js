@@ -1,5 +1,5 @@
-document.getElementById("project-grid").onmousemove = e => {
-    for(const projBox of document.getElementsByClassName("project-box")) {
+document.getElementById("cards").onmousemove = e => {
+    for(const projBox of document.getElementsByClassName("card")) {
       const rect = projBox.getBoundingClientRect(),
             x = e.clientX - rect.left,
             y = e.clientY - rect.top;
