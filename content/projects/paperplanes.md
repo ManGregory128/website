@@ -1,7 +1,8 @@
 ---
 title: "Paper Planes"
 date: 2023-05-01
-description: "CSU11013 Contribution"
+dateRange: "Jan-May 2023"
+description: "Group Work For CSU11013: Programming Project"
 image: "images/paperPlanes.png"
 ---
 

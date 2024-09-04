@@ -1,6 +1,7 @@
 ---
 title: "Research Intern at KIOS CoE"
 date: 2024-08-01
+dateRange: "Jun-Jul 2024"
 description: "First Internship and Inaugural Research Project"
 image: "images/kiosPresentation.jpg"
 ---
@@ -10,3 +11,6 @@ image: "images/kiosPresentation.jpg"
 - Collaborated with supervisors who helped me utilize mathematical programming and k-means clustering to form groups within a virtual road network representing Nicosia, Cyprus. Considered constraints such as demand size and bus capacity.
 
 **Skills**: XML · Java · Mathematical Programming · Clustering · Optimization · Sumo · Algorithms
+
+The project report follows:
+{{< embed-pdf url="/files/UROP_Report.pdf" >}}

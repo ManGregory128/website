@@ -1,6 +1,6 @@
 baseurl = "https://www.mangregory.me"
 title = "Gregory Manitaras"
-theme = "hugo-coder"
+theme = ["hugo-embed-pdf-shortcode", "hugo-coder"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -24,6 +24,7 @@ pygmentscodefencesguesssyntax = true
   since = 2022
 
   enableTwemoji = true
+  enableInlineShortcodes = true
   mainSections = ["projects"]
   colorScheme = "auto"
   hidecolorschemetoggle = false

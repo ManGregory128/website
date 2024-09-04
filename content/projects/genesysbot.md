@@ -1,6 +1,7 @@
 ---
 title: "Genesys Student Discount Bot"
 date: 2023-10-01
+dateRange: "Jan-May 2024"
 description: "CSU22013 Contribution"
 image: "images/genesysBotPage.jpg"
 ---

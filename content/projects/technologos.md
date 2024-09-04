@@ -1,7 +1,8 @@
 ---
 title: "SWE Intern at Technologos"
 date: 2024-08-01
-description: "Ongoing internship at Technologos"
+dateRange: "May & Aug 2024"
+description: "SwEng Internship, Erasmus+ KA Projects"
 image: "images/arduinoSplash.png"
 ---
 
@@ -14,3 +15,7 @@ members and stakeholders.
 - Improved project direction and ensured alignment with project goals, as measured by the adoption of key suggestions in 
 project meetings, by actively participating in strategic discussions and providing input on project features and implementation 
 strategies.
+
+**Skills**: Arduino · Raspberry Pi · Erasmus+ KA Project Proposal Writing & Implementation · Teamwork · Communication
+
+{{< youtube VXVgZ_24Voc >}}

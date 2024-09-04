@@ -1,6 +1,7 @@
 ---
 title: "Asgard Shield: Reloaded"
 date: 2023-10-01
+dateRange: "May 2020 - Ongoing"
 description: "A Minecraft Mod"
 image: "https://user-images.githubusercontent.com/52697798/232713521-3f9cd713-5c04-4829-abc4-0a899014a7b0.png"
 ---
@@ -17,3 +18,5 @@ This mod is a re-make of the original Asgard Shield, made popular by the 1.5 mod
 * **Shields** have special perks and weaknesses, giving each shield its unique purpose. They‘re crafted using leather and six pieces of the respective material and can be upgraded with gold for improved stats.
 
 The mod is hosted on [Curseforge](https://www.curseforge.com/minecraft/mc-mods/asgard-shield-reloaded) and [Modrinth](https://modrinth.com/mod/asgard-shield-reloaded) and its code can be found on [this repo](https://github.com/ManGregory128/asgardshieldreloaded).
+
+[Here](https://i.imgur.com/IfNLnwA.gif) it is in action!
